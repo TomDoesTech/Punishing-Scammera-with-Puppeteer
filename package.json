@@ -1,0 +1,21 @@
+{
+  "name": "publishing-scammers-with-pupperteer",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "ts-node index.ts"
+  },
+  "dependencies": {
+    "fake_credit_card": "^1.0.1",
+    "faker": "^5.5.3",
+    "nanoid": "^3.1.23",
+    "puppeteer": "^9.1.1"
+  },
+  "devDependencies": {
+    "@types/faker": "^5.5.5",
+    "@types/puppeteer": "^5.4.3",
+    "ts-node": "^10.0.0",
+    "typescript": "^4.2.4"
+  }
+}
